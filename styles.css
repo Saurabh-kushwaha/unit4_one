@@ -1,0 +1,87 @@
+.header{
+   display: grid;
+   grid-template-columns: auto auto;
+}
+.logo{
+    height: 50px;
+    width: 100px;
+}
+.logo_side{
+    display: flex;
+}
+.log_side_up{
+    margin-left: 250px;
+    display: flex;
+}
+.log_side_up p{
+    margin: 10px;
+}
+.p_mangement{
+    border: 1px solid black;
+    height: 20px;
+    width: 50px;
+    padding: 5px;
+    margin-top: -20px;
+    background-color: black;
+    color: white;
+}
+.image{
+    width: 100%;
+}
+.FIND{
+    width: 90px;
+    background-color: rgb(160, 9, 110);
+    padding: 10px;
+    margin: 0px;
+}
+.location{
+    border: 1px solid rgb(160, 9, 110);
+    padding: 10px;
+    width: 330px;
+}
+.loc{
+    margin-left: -10px;
+    margin-bottom: 20px;
+}
+.header_1{
+    padding: 10px;
+}
+.font_h2{
+    font: 1em sans-serif;
+}
+/*  */
+.order_menu{
+    display: flex;
+}
+.order_menu img{
+    height: 200px;
+    width: 254px;
+    padding: 25px;
+}
+.offer_1{
+    height: 250px;
+    background-color: black;
+}
+/*  */
+#restarunt{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+#restarunt img{
+    height: 200px;
+    width: 267px;
+    padding: 20px;
+}
+.rest_menu{
+    height: 55px;
+    width: 267px;
+}
+.rest_menu p{
+    margin-top: -10px;
+    padding-left: 20px;
+    color: rgb(58, 48, 48);
+    font-weight: bold;
+}
+.distance{
+    display: flex;
+}
